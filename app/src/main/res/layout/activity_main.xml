@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.technology.waangyukui.mycyclerapp.MainActivity">
+
+    <com.technology.waangyukui.mycyclerapp.DragView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Hello World！"
+                    android:textSize="15dp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_view"
+                    android:layout_centerHorizontal="true"
+                    android:text="数据库的简单使用"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_buy_car"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button"
+                    android:layout_centerHorizontal="true"
+                    android:text="悬浮购物车"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_e_le_ma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_buy_car"
+                    android:layout_centerHorizontal="true"
+                    android:text="高仿饿了么购物车"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_picture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_e_le_ma"
+                    android:layout_centerHorizontal="true"
+                    android:text="几种图片的制作"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_statue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_picture"
+                    android:layout_centerHorizontal="true"
+                    android:text="显示图片在状态栏中"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_statue"
+                    android:layout_centerHorizontal="true"
+                    android:text="多风格的图片"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_shortcut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_layout"
+                    android:layout_centerHorizontal="true"
+                    android:text="实现快捷键"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_app_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_shortcut"
+                    android:layout_centerHorizontal="true"
+                    android:text="自定义的edittext和底部导航栏"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_defined_toast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_app_edit_text"
+                    android:layout_centerHorizontal="true"
+                    android:text="自定义的toast"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_display_observer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_defined_toast"
+                    android:layout_centerHorizontal="true"
+                    android:text="显示观察者模式"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_retrofit_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_display_observer"
+                    android:layout_centerHorizontal="true"
+                    android:text="retrofit的使用user"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_start_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_retrofit_user"
+                    android:layout_centerHorizontal="true"
+                    android:text="activity和service之间的数据传递"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_easy_permission"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_start_service"
+                    android:layout_centerHorizontal="true"
+                    android:text="easyPermission的简单使用"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_study_kotlin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_easy_permission"
+                    android:layout_centerHorizontal="true"
+                    android:text="学习kotlin"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_camera"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_study_kotlin"
+                    android:layout_centerHorizontal="true"
+                    android:text="自定义相机"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_use_web_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_camera"
+                    android:layout_centerHorizontal="true"
+                    android:text="WebView的使用"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_canvas_use"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_use_web_view"
+                    android:layout_centerHorizontal="true"
+                    android:text="Canvas的简单使用"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_path_use"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_canvas_use"
+                    android:layout_centerHorizontal="true"
+                    android:text="Canvas的简单使用"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_bezier"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_path_use"
+                    android:layout_centerHorizontal="true"
+                    android:text="贝塞尔曲线的简单使用"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_rx_java"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_bezier"
+                    android:layout_centerHorizontal="true"
+                    android:text="rxjava的简单使用"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_web_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_rx_java"
+                    android:layout_centerHorizontal="true"
+                    android:text="微信支付支付宝支付"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/button_defined_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_rx_java"
+                    android:layout_centerHorizontal="true"
+                    android:text="自定义view很简单"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/broadcast_receiver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/button_defined_view"
+                    android:layout_centerHorizontal="true"
+                    android:text="广播的简单使用"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </ScrollView>
+    </com.technology.waangyukui.mycyclerapp.DragView>
+</RelativeLayout>

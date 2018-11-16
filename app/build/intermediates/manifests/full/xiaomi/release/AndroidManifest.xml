@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.technology.waangyukui.mycyclerapp.xiaomi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="27" />
+    <!-- package="com.technology.waangyukui.mycyclerapp"> -->
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <!-- android:label="@string/app_name" -->
+    <permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.technology.waangyukui.mycyclerapp.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="三叶草"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="com.technology.waangyukui.mycyclerapp.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.technology.waangyukui.database.DataBaseActivity" />
+        <activity android:name="com.technology.waangyukui.database.QueryDataActivity" />
+        <activity android:name="com.technology.waangyukui.database.QueryGoodsDataActivity" />
+        <activity android:name="com.technology.waangyukui.kotlinStudy.MainTwoActivity" />
+        <activity
+            android:name="com.technology.waangyukui.mycyclerapp.ActivityStatue"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name="com.technology.waangyukui.suspendcart.SuspendCarActivity" />
+        <activity android:name="com.technology.waangyukui.elema.ElemaActivity" />
+        <activity android:name="com.technology.waangyukui.picture.ActivityPicture" />
+        <activity
+            android:name="com.technology.waangyukui.layout.LayoutActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.technology.waangyukui.layout.SkidRightActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.technology.waangyukui.layout.SkidRightActivityTwo"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name="com.technology.waangyukui.bluetooth.BlueTeethActivity" />
+        <activity android:name="com.technology.waangyukui.defineEditText.DefineEditTextActivity" />
+        <activity android:name="com.technology.waangyukui.toast.ToastActivity" />
+        <activity android:name="com.technology.waangyukui.observer.ObserverActivity" />
+        <activity android:name="com.technology.waangyukui.observer.TwoObserverActivity" />
+        <activity android:name="com.technology.waangyukui.observer.ThreeObserverActivity" />
+        <activity android:name="com.technology.waangyukui.retrofituse.GetRequestActivity" />
+        <activity android:name="com.technology.waangyukui.service.ServiceActivity" />
+        <activity android:name="com.technology.waangyukui.permission.PermissionActivity" />
+        <activity
+            android:name="com.technology.waangyukui.kotlinStudy.SeekTicketActivity"
+            android:theme="@style/AppThemeDefined" />
+        <activity android:name="com.technology.waangyukui.webview.WebViewActivity" />
+        <activity android:name="com.technology.waangyukui.webview.SimpleUseActivity" />
+        <activity android:name="com.technology.waangyukui.webview.JavaAndroidActivity" />
+        <activity android:name="com.technology.waangyukui.webview.JavaScriptActivity" />
+        <activity android:name="com.technology.waangyukui.canvas.CanvasActivity" />
+        <activity android:name="com.technology.waangyukui.canvas.PathActivity" />
+        <activity android:name="com.technology.waangyukui.canvas.BezierActivity" />
+        <activity android:name="com.technology.waangyukui.rx.RXJavaActivity" />
+        <activity android:name="com.technology.waangyukui.pay.WebViewPayActivity" />
+        <activity android:name="com.technology.waangyukui.pay.AliAndWeChatPayActivity" />
+        <activity android:name="com.technology.waangyukui.definedView.DefinedViewActivity" />
+        <activity android:name="com.technology.waangyukui.definedView.DefinedViewOneActivity" />
+        <activity android:name="com.technology.waangyukui.broadcast.ReceiverActivity" />
+        <activity
+            android:name="com.technology.waangyukui.camera.CameraActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <service
+            android:name="com.technology.waangyukui.mycyclerapp.AdvertiserService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.technology.waangyukui.service.MyService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name="com.technology.waangyukui.service.MyReceiver" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.technology.waangyukui.mycyclerapp.xiaomi.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.allenliu.versionchecklib.core.VersionDialogActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/versionCheckLibvtransparentTheme" />
+
+        <provider
+            android:name="com.allenliu.versionchecklib.core.VersionFileProvider"
+            android:authorities="com.technology.waangyukui.mycyclerapp.xiaomi.versionProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/versionchecklib_file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.allenliu.versionchecklib.core.PermissionDialogActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/versionCheckLibvtransparentTheme" />
+
+        <service
+            android:name="com.allenliu.versionchecklib.core.MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.allenliu.versionchecklib.v2.ui.VersionService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.allenliu.versionchecklib.v2.ui.UIActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/versionCheckLibvtransparentTheme" />
+        <activity
+            android:name="com.allenliu.versionchecklib.v2.ui.DownloadingActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/versionCheckLibvtransparentTheme" />
+        <activity
+            android:name="com.allenliu.versionchecklib.v2.ui.DownloadFailedActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/versionCheckLibvtransparentTheme" />
+    </application>
+
+</manifest>

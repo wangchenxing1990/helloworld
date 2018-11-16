@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:text="This is serach Tab"-->
+    <!--android:textSize="30sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<SearchView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="44dp"-->
+    <!--android:id="@+id/searchView"-->
+    <!--android:layout_marginTop="0dp"-->
+    <!--android:layout_marginLeft="0dp"-->
+    <!--android:layout_marginRight="0dp"-->
+    <!--android:iconifiedByDefault="false"-->
+    <!--android:queryHint="复制宝贝标题/搜索关键字">-->
+
+    <!--</SearchView>-->
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="寻券"
+            android:visibility="visible"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.technology.waangyukui.kotlinStudy.view.browserSearchView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:id="@+id/browserserchview"
+       /> >
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f2f2f2"
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/category"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="3"
+                android:id="@+id/subcategory"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:id="@+id/button_simple_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="简单文字"/>
+        <Button
+            android:id="@+id/button_right_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="正确图标"
+            android:layout_below="@+id/button_simple_text"/>
+
+        <Button
+            android:id="@+id/button_error_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="错误图标"
+            android:layout_below="@+id/button_right_icon"/>
+
+        <Button
+            android:id="@+id/button_long_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="简单长文字"
+            android:layout_below="@+id/button_error_icon"/>
+
+        <Button
+            android:id="@+id/button_right_icon_long"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="正确图标 长"
+            android:layout_below="@+id/button_long_text"/>
+
+        <Button
+            android:id="@+id/button_error_icon_long"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="错误图标 长"
+            android:layout_below="@+id/button_right_icon_long"/>
+
+        <ImageView
+            android:id="@+id/image_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/button_error_icon_long"
+            android:src="@mipmap/button_add"/>
+    </RelativeLayout>
+
+</ScrollView>

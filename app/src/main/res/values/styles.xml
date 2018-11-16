@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeDefined" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="OverflowMenuStyle" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
+        <!-- 是否覆盖锚点，默认为true，即盖住Toolbar -->
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <declare-styleable name="item_relative_layout">
+
+        <attr name="title_left" format="string" />
+        <attr name="title_center" format="string" />
+        <attr name="title_right" format="string" />
+        <attr name="image_left_src" format="reference" />
+        <attr name="image_right_src" format="reference" />
+
+        <attr name="left_image_padding" format="dimension" />
+        <attr name="right_image_padding" format="dimension" />
+
+        <attr name="left_margin" format="dimension" />
+        <attr name="right_margin" format="dimension" />
+
+        <attr name="leftTvSize" format="dimension" />
+        <attr name="rightTvSize" format="dimension" />
+        <attr name="centerTvSize" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="BottomTabLayout">
+        <attr name="count" format="integer" />
+    </declare-styleable>
+
+</resources>

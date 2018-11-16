@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MyCyclerApp</string>
+    <string name="skid_activty_2_text">Do one thing at a time, and do well.Keep on going never give up.
+        Whatever is worth doing is worth doing well.I can because i think i can.Jack of all trades and master of none.
+    Whatever is worth doing is worth doing well.Keep on going never give up.</string>
+    <string name="add_new_website">Add New Website</string>
+    <string name="add_new_website_short">Add Website</string>
+    <string name="existing_shortcuts">Existing shortcuts:</string>
+    <string name="remove_shortcut">Remove</string>
+    <string name="disable_shortcut">Disable</string>
+    <string name="enable_shortcut">Enable</string>
+    <string name="common_case_page_title">Enable</string>
+    <string name="edge_case_page_title">Enable</string>
+    <string name="activity_main_title">Nearby Device</string>
+    <string name="bt_not_supported">Bluetooth is not supported on this device.</string>
+    <string name="bt_ads_not_supported">Bluetooth Advertisements are not supported on this device.</string>
+    <string name="empty_list">Bluetooth Advertisements are not supported on this device.</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="start_error_prefix">Start Advertising failed: </string>
+    <string name="start_error_already_started">already started.</string>
+    <string name="start_error_too_large">data packet exceeded 31 Byte limit.</string>
+    <string name="start_error_unsupported">not supported on this device.</string>
+    <string name="start_error_internal">internal error.</string>
+    <string name="start_error_too_many">too many advertisers.</string>
+    <string name="bt_null">Error: Bluetooth object null</string>
+    <string name="last_seen">Last Seen:</string>
+    <string name="just_now">just now</string>
+    <string name="minute_ago">minute ago</string>
+    <string name="hour_ago">hour ago</string>
+    <string name="seconds_ago">seconds ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="hours_ago">hours ago</string>
+    <!--<string name="empty_list">No devices found - refresh to try again.</string>-->
+    <string name="seconds">seconds.</string>
+    <string name="scan_start_toast">Scanning for</string>
+    <string name="already_scanning">Scanning already started.</string>
+    <string name="no_name">(no name)</string>
+    <string name="start_error_unknown">unknown error</string>
+    <string name="advertising_timedout">Advertising stopped due to timeout.</string>
+    <string name="bt_not_enabled_leaving">User declined to enable Bluetooth, exiting Bluetooth Advertisements.</string>
+    <string name="broadcast_device">Broadcast Device</string>
+    <string name="find">发现</string>
+    <string name="home">首页</string>
+    <string name="discovery">动态</string>
+    <string name="more">更多</string>
+    <string name="study_kotlin">开始学习kotlin语言的写Android代码</string>
+
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+</resources>

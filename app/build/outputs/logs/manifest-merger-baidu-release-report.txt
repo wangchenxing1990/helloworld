@@ -1,0 +1,466 @@
+-- Merging decision tree log ---
+application
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:16:5-100:19
+MERGED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:19:5-62:19
+MERGED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:19:5-62:19
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\xUtils-2.6.14.aar\bd9bed034971b674056f8d8f8e9b8e0a\AndroidManifest.xml:11:5-20
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\xUtils-2.6.14.aar\bd9bed034971b674056f8d8f8e9b8e0a\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fc8bfa212c62e96be712d88daab27330\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fc8bfa212c62e96be712d88daab27330\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5967082151197907df92e7fb12e9243a\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5967082151197907df92e7fb12e9243a\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:22:9-36
+	android:hardwareAccelerated
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:19:9-43
+	android:roundIcon
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:23:9-54
+	android:icon
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:25:9-65
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:17:9-75
+provider#android.support.v4.content.FileProvider
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:91:9-99:20
+	android:grantUriPermissions
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:95:13-47
+	android:authorities
+		INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:93:13-65
+	android:exported
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:94:13-37
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:92:13-67
+manifest
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:2:1-102:12
+MERGED from [com.github.yjfnypeu:EasyAndroid:1.0.9] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\EasyAndroid-1.0.9.aar\c1649e1707ea1cc0f81fff8a11196b57\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\8ee2d411c22b45bdd9ea31ec8fd77737\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.DingMouRen.LayoutManagerGroup:LayoutManagerGroup:f68c9712e5] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\LayoutManagerGroup-f68c9712e5.aar\dd68949672f40ccfe96b8f1025eeeb1c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\4bd14e0603d6e19b9387fb2bd6eb5f13\AndroidManifest.xml:17:1-22:12
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\stickylistheaders-2.7.0.aar\6bc892a12f36414fb5bf42acbd5fb5ed\AndroidManifest.xml:2:1-11:12
+MERGED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:2:1-64:12
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\MagicIndicator-1.5.0.aar\4e45f2558e59cbb3ef5cc53e5059aa42\AndroidManifest.xml:2:1-12:12
+MERGED from [com.zhy:okhttputils:2.6.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\okhttputils-2.6.2.aar\c27f15d3d19e75b769af6b5ff493cac9\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\512b6b56fd39177356659d50a2b400c4\AndroidManifest.xml:15:1-21:12
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\xUtils-2.6.14.aar\bd9bed034971b674056f8d8f8e9b8e0a\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\e8cf66805206c29bd5027ba2825fdb21\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fc8bfa212c62e96be712d88daab27330\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5967082151197907df92e7fb12e9243a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\d72cfc5ee61075151293674d92aab5e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\1aea2684cd738c6f196d79aaecad403a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\a333395712ec1a336709186daefde0f9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\cbdaba0b1422bcf629b232967fadaa74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7a2ecda99870bd1976f673ef72cdadbc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\cc33e03ad045e77790d14fe92294153f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\a00d3a4876b1c5b15e4d07e1c02cc7ae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\29954199f564258a0c414625413fab46\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\6c75541799ccea0e97a8099b987fb8e8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\3350d4e785a6224f57b4ad4a7b9b3cba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.DingMouRen.LayoutManagerGroup:blurkit:f68c9712e5] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\blurkit-f68c9712e5.aar\687baf2968c2782f10f00078ec3ac261\AndroidManifest.xml:2:1-12:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4ef9903b52e32d1888897eeafbed6c13\AndroidManifest.xml:17:1-24:12
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:2:1-102:12
+	package
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:3:5-52
+		INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:2:1-102:12
+		INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:2:1-102:12
+		INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:7:5-74
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:7:22-71
+uses-permission#android.permission.CAMERA
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:9:5-88
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:9:22-85
+uses-permission#android.permission.INTERNET
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:10:5-67
+MERGED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:11:5-67
+MERGED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:11:5-81
+MERGED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:12:5-81
+MERGED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:12:22-70
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:13:5-73
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:13:22-70
+permission#android.permission.CAMERA
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:15:5-60
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:15:17-57
+uses-sdk
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+MERGED from [com.github.yjfnypeu:EasyAndroid:1.0.9] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\EasyAndroid-1.0.9.aar\c1649e1707ea1cc0f81fff8a11196b57\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yjfnypeu:EasyAndroid:1.0.9] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\EasyAndroid-1.0.9.aar\c1649e1707ea1cc0f81fff8a11196b57\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\8ee2d411c22b45bdd9ea31ec8fd77737\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\8ee2d411c22b45bdd9ea31ec8fd77737\AndroidManifest.xml:20:5-44
+MERGED from [com.github.DingMouRen.LayoutManagerGroup:LayoutManagerGroup:f68c9712e5] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\LayoutManagerGroup-f68c9712e5.aar\dd68949672f40ccfe96b8f1025eeeb1c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.DingMouRen.LayoutManagerGroup:LayoutManagerGroup:f68c9712e5] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\LayoutManagerGroup-f68c9712e5.aar\dd68949672f40ccfe96b8f1025eeeb1c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\4bd14e0603d6e19b9387fb2bd6eb5f13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\4bd14e0603d6e19b9387fb2bd6eb5f13\AndroidManifest.xml:20:5-44
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\stickylistheaders-2.7.0.aar\6bc892a12f36414fb5bf42acbd5fb5ed\AndroidManifest.xml:7:5-9:41
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\stickylistheaders-2.7.0.aar\6bc892a12f36414fb5bf42acbd5fb5ed\AndroidManifest.xml:7:5-9:41
+MERGED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\MagicIndicator-1.5.0.aar\4e45f2558e59cbb3ef5cc53e5059aa42\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\MagicIndicator-1.5.0.aar\4e45f2558e59cbb3ef5cc53e5059aa42\AndroidManifest.xml:8:5-10:41
+MERGED from [com.zhy:okhttputils:2.6.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\okhttputils-2.6.2.aar\c27f15d3d19e75b769af6b5ff493cac9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:okhttputils:2.6.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\okhttputils-2.6.2.aar\c27f15d3d19e75b769af6b5ff493cac9\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\512b6b56fd39177356659d50a2b400c4\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\512b6b56fd39177356659d50a2b400c4\AndroidManifest.xml:19:5-43
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\xUtils-2.6.14.aar\bd9bed034971b674056f8d8f8e9b8e0a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\xUtils-2.6.14.aar\bd9bed034971b674056f8d8f8e9b8e0a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\e8cf66805206c29bd5027ba2825fdb21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\e8cf66805206c29bd5027ba2825fdb21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fc8bfa212c62e96be712d88daab27330\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fc8bfa212c62e96be712d88daab27330\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5967082151197907df92e7fb12e9243a\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\5967082151197907df92e7fb12e9243a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\d72cfc5ee61075151293674d92aab5e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\d72cfc5ee61075151293674d92aab5e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\1aea2684cd738c6f196d79aaecad403a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\1aea2684cd738c6f196d79aaecad403a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\a333395712ec1a336709186daefde0f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\a333395712ec1a336709186daefde0f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\cbdaba0b1422bcf629b232967fadaa74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\cbdaba0b1422bcf629b232967fadaa74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7a2ecda99870bd1976f673ef72cdadbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7a2ecda99870bd1976f673ef72cdadbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\cc33e03ad045e77790d14fe92294153f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\cc33e03ad045e77790d14fe92294153f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\a00d3a4876b1c5b15e4d07e1c02cc7ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\a00d3a4876b1c5b15e4d07e1c02cc7ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\29954199f564258a0c414625413fab46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\29954199f564258a0c414625413fab46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\6c75541799ccea0e97a8099b987fb8e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\6c75541799ccea0e97a8099b987fb8e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\3350d4e785a6224f57b4ad4a7b9b3cba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\3350d4e785a6224f57b4ad4a7b9b3cba\AndroidManifest.xml:20:5-44
+MERGED from [com.github.DingMouRen.LayoutManagerGroup:blurkit:f68c9712e5] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\blurkit-f68c9712e5.aar\687baf2968c2782f10f00078ec3ac261\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.DingMouRen.LayoutManagerGroup:blurkit:f68c9712e5] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\blurkit-f68c9712e5.aar\687baf2968c2782f10f00078ec3ac261\AndroidManifest.xml:8:5-10:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4ef9903b52e32d1888897eeafbed6c13\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4ef9903b52e32d1888897eeafbed6c13\AndroidManifest.xml:20:5-22:41
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+		INJECTED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml
+activity#com.technology.waangyukui.mycyclerapp.MainActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:26:9-31:20
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:26:19-84
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.technology.waangyukui.database.DataBaseActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:32:9-88
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:32:19-85
+activity#com.technology.waangyukui.database.QueryDataActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:33:9-89
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:33:19-86
+activity#com.technology.waangyukui.database.QueryGoodsDataActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:34:9-94
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:34:19-91
+activity#com.technology.waangyukui.kotlinStudy.MainTwoActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:35:9-90
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:35:19-87
+activity#com.technology.waangyukui.mycyclerapp.ActivityStatue
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:36:9-38:66
+	android:theme
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:38:13-63
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:37:13-80
+activity#com.technology.waangyukui.suspendcart.SuspendCarActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:39:9-93
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:39:19-90
+activity#com.technology.waangyukui.elema.ElemaActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:40:9-82
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:40:19-79
+activity#com.technology.waangyukui.picture.ActivityPicture
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:41:9-86
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:41:19-83
+activity#com.technology.waangyukui.layout.LayoutActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:42:9-44:66
+	android:theme
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:44:13-63
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:43:13-75
+activity#com.technology.waangyukui.layout.SkidRightActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:45:9-47:66
+	android:theme
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:47:13-63
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:46:13-78
+activity#com.technology.waangyukui.layout.SkidRightActivityTwo
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:48:9-50:66
+	android:theme
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:50:13-63
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:49:13-81
+activity#com.technology.waangyukui.bluetooth.BlueTeethActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:51:9-90
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:51:19-87
+activity#com.technology.waangyukui.defineEditText.DefineEditTextActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:52:9-100
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:52:19-97
+activity#com.technology.waangyukui.toast.ToastActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:53:9-82
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:53:19-79
+activity#com.technology.waangyukui.observer.ObserverActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:54:9-88
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:54:19-85
+activity#com.technology.waangyukui.observer.TwoObserverActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:55:9-91
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:55:19-88
+activity#com.technology.waangyukui.observer.ThreeObserverActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:56:9-93
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:56:19-90
+activity#com.technology.waangyukui.retrofituse.GetRequestActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:57:9-93
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:57:19-90
+activity#com.technology.waangyukui.service.ServiceActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:58:9-86
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:58:19-83
+activity#com.technology.waangyukui.permission.PermissionActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:59:9-92
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:59:19-89
+activity#com.technology.waangyukui.kotlinStudy.SeekTicketActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:60:9-62:54
+	android:theme
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:62:13-51
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:61:13-84
+activity#com.technology.waangyukui.webview.WebViewActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:63:9-86
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:63:19-83
+activity#com.technology.waangyukui.webview.SimpleUseActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:64:9-88
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:64:19-85
+activity#com.technology.waangyukui.webview.JavaAndroidActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:65:9-90
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:65:19-87
+activity#com.technology.waangyukui.webview.JavaScriptActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:66:9-89
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:66:19-86
+activity#com.technology.waangyukui.canvas.CanvasActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:67:9-84
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:67:19-81
+activity#com.technology.waangyukui.canvas.PathActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:68:9-82
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:68:19-79
+activity#com.technology.waangyukui.canvas.BezierActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:69:9-84
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:69:19-81
+activity#com.technology.waangyukui.rx.RXJavaActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:70:9-80
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:70:19-77
+activity#com.technology.waangyukui.pay.WebViewPayActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:71:9-85
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:71:19-82
+activity#com.technology.waangyukui.pay.AliAndWeChatPayActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:72:9-90
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:72:19-87
+activity#com.technology.waangyukui.definedView.DefinedViewActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:73:9-94
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:73:19-91
+activity#com.technology.waangyukui.definedView.DefinedViewOneActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:74:9-97
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:74:19-94
+activity#com.technology.waangyukui.broadcast.ReceiverActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:75:9-89
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:75:19-86
+activity#com.technology.waangyukui.camera.CameraActivity
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:76:9-78:72
+	android:theme
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:78:13-69
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:77:13-75
+service#com.technology.waangyukui.mycyclerapp.AdvertiserService
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:80:9-83:40
+	android:enabled
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:82:13-35
+	android:exported
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:83:13-37
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:81:13-83
+service#com.technology.waangyukui.service.MyService
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:84:9-87:40
+	android:enabled
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:86:13-35
+	android:exported
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:87:13-37
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:85:13-71
+receiver#com.technology.waangyukui.service.MyReceiver
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:89:9-81
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:89:19-78
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:96:13-98:54
+	android:resource
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:98:17-51
+	android:name
+		ADDED from F:\MyCyclerApp\app\src\main\AndroidManifest.xml:97:17-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:15:22-63
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:16:5-83
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:16:22-80
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:17:22-65
+activity#com.allenliu.versionchecklib.core.VersionDialogActivity
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:22:9-25:71
+	android:launchMode
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:24:13-44
+	android:theme
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:25:13-68
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:23:13-83
+provider#com.allenliu.versionchecklib.core.VersionFileProvider
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:27:9-35:20
+	android:grantUriPermissions
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:31:13-47
+	android:authorities
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:29:13-67
+	android:exported
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:28:13-81
+activity#com.allenliu.versionchecklib.core.PermissionDialogActivity
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:37:9-40:71
+	android:launchMode
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:39:13-44
+	android:theme
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:40:13-68
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:38:13-86
+service#com.allenliu.versionchecklib.core.MyService
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:42:9-45:39
+	android:enabled
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:44:13-35
+	android:exported
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:43:13-71
+service#com.allenliu.versionchecklib.v2.ui.VersionService
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:46:9-48:40
+	android:exported
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:47:13-77
+activity#com.allenliu.versionchecklib.v2.ui.UIActivity
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:50:9-53:71
+	android:launchMode
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:52:13-44
+	android:theme
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:53:13-68
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:51:13-73
+activity#com.allenliu.versionchecklib.v2.ui.DownloadingActivity
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:54:9-57:71
+	android:launchMode
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:56:13-44
+	android:theme
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:57:13-68
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:55:13-82
+activity#com.allenliu.versionchecklib.v2.ui.DownloadFailedActivity
+ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:58:9-61:71
+	android:launchMode
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:60:13-44
+	android:theme
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:61:13-68
+	android:name
+		ADDED from [com.allenliu.versionchecklib:library:2.0.0] C:\Users\lenvo\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\6925c7869840153270c3abc2df8cb8f5\AndroidManifest.xml:59:13-85

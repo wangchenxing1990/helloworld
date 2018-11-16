@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/button_use_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="webView简单的使用"/>
+
+    <Button
+        android:id="@+id/button_java_and_android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_use_simple"
+        android:text="javaScript和Android的交互(使用loadUrl())"/>
+
+    <Button
+        android:id="@+id/button_java_script"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_java_and_android"
+        android:text="javaScript调用Android中的方法"/>
+
+</RelativeLayout>

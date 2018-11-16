@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_send_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="主线程发送事件到第一个界面" />
+
+    <Button
+        android:id="@+id/button_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_send_one"
+        android:text="接收粘性事件" />
+
+    <TextView
+        android:id="@+id/text_view_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_two"
+        android:text="wangyukui"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_view_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_two"
+        android:text="wangyukui"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/text_view_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_three"
+        android:text="wangyukui"
+        android:textColor="#000000" />
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:textColor="#353535"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_name" />
+
+    <CheckBox
+        android:id="@+id/check_boy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_name"
+        android:text="男"
+        android:textColor="#353535"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/check_girl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/check_boy"
+        android:text="女"
+        android:textColor="#353535"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/check_girl"
+        android:text="电话号码"
+        android:textColor="#353535"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_phone" />
+
+    <TextView
+        android:id="@+id/text_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_phone"
+        android:text="备注"
+        android:textColor="#353535"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit_desc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/text_desc" />
+
+    <Button
+        android:id="@+id/button_insert"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edit_desc"
+        android:layout_centerHorizontal="true"
+        android:text="插入" />
+
+
+    <Button
+        android:id="@+id/button_query"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_insert"
+        android:layout_centerHorizontal="true"
+        android:text="查询" />
+
+    <Button
+        android:id="@+id/button_insert_good"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_query"
+        android:layout_centerHorizontal="true"
+        android:text="插入商品数据" />
+
+    <Button
+        android:id="@+id/button_query_goods"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_insert_good"
+        android:layout_centerHorizontal="true"
+        android:text="查询商品" />
+
+</RelativeLayout>

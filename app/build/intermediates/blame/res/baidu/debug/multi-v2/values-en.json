@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\MyCyclerApp\\app\\build\\intermediates\\incremental\\mergeBaiduDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lenvo\\.gradle\\caches\\transforms-1\\files-1.1\\library-2.0.0.aar\\6925c7869840153270c3abc2df8cb8f5\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,186,245,313,402,493,591,682,753,813,869",
+                        "endColumns": "57,72,58,67,88,90,97,90,70,59,55,102",
+                        "endOffsets": "108,181,240,308,397,488,586,677,748,808,864,967"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/web_view_three"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+
+    <Button
+        android:id="@+id/button_java_script"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/web_view_three"
+        android:text="javaScript调用Android中的方法"/>
+
+
+
+</RelativeLayout>

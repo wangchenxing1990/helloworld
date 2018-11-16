@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/relative_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.technology.waangyukui.defineEditText.DefineEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_one">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <com.technology.waangyukui.defineEditText.DefineItemRelative
+                android:id="@+id/define_item_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                app:centerTvSize="18sp"
+                app:image_left_src="@mipmap/ic_launcher"
+                app:image_right_src="@mipmap/icon_next"
+                app:leftTvSize="16sp"
+                app:right_margin="10dp"
+                app:rightTvSize="18sp"
+                app:title_left="天猫超市"
+                app:title_right="1000奖券" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_view_one"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp">
+
+            <com.technology.waangyukui.defineEditText.DefineItemRelative
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:centerTvSize="18sp"
+                app:image_left_src="@mipmap/ic_launcher"
+                app:image_right_src="@mipmap/icon_next"
+                android:layout_marginRight="10dp"
+                app:right_margin="10dp"
+                app:leftTvSize="16sp"
+                app:rightTvSize="18sp"
+                app:title_left="京东商城"
+                app:title_right="200奖券" />
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <com.technology.waangyukui.defineEditText.BottomTabLayout
+        android:id="@+id/bottom_item_tab"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        app:count="4"
+        />
+
+</RelativeLayout>
